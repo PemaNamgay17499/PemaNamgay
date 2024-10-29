@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lcontainer{
+    width: 30%;
+    height: 600px;
+    background-color: black;
+    border-radius: 25px;
+    margin: 15px 0 0 20px; 
+    display: inline-block;
+}
+.rcontainer{
+    width: 65%;
+    height: 600px;
+    box-shadow: 1px 1px 7px gray;
+    border-radius: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.detailscon{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
